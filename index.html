@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Jhuan Nycolas</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        background-image: url("./assets/background.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+
+      #app {
+        /*background-color: rgba(calc(255 / 2), calc(255 / 2), calc(255 / 2), 0.3);*/
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(18px);
+        border: 2px solid white;
+        border-radius: 9px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        min-width: 320px;
+        max-width: 400px;
+
+        height: 96vh;
+
+        transform: translateY(2%);
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .me, .me > a > img{
+        border-radius: 500px;
+
+        width: 80px;
+        height: 80px;
+      }
+
+      .me > a > img {
+        margin-top: 30px;
+      }
+
+      .btn-links {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .btn-links > h1 {
+        text-align: center;
+        color: white;
+        font-family: Arial;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      .btn-links > a > div {
+        border: 2px solid white;
+        padding: 8px 50px;
+        width: 200px;
+        border-radius: 50px;
+      }
+
+      .btn-links > a {
+        color: white;
+        font-family: Arial;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="me">
+        <a href="https://github.com/Jhuan-Nycolas" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/eu.jpeg" alt="Foto de um hacker estilo cartoon"/>
+        </a>
+      </div>
+  
+      <div class="btn-links">
+        <h1>Links:</h1>
+        <a href="https://discord.gg/TQz5macfwN"><div>Dev Home</div></a>
+        <a href="https://github.com/Jhuan-Nycolas/settings-nvim"><div>Settings NeomVim</div></a>
+      </div>
+    </div>
+  </body>
+</html>
