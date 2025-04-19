@@ -3,103 +3,19 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/main.css">
     <title>Jhuan Nycolas</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        background-image: url("./background.jpg");
-        background-position: center center;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-      }
-
-      #app {
-        /*background-color: rgba(calc(255 / 2), calc(255 / 2), calc(255 / 2), 0.3);*/
-        background-color: rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(18px);
-        border: 2px solid white;
-        border-radius: 9px;
-
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-
-        min-width: 320px;
-        max-width: 400px;
-
-        height: 96vh;
-
-        transform: translateY(2%);
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .me, .me > a > img{
-        border-radius: 500px;
-
-        width: 80px;
-        height: 80px;
-      }
-
-      .me > a > img {
-        margin-top: 30px;
-      }
-
-      .name {
-        margin-bottom: 20px;
-      }
-
-      .btn-links {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-      }
-
-      .btn-links > h1 {
-        text-align: center;
-        color: white;
-        font-family: Arial;
-        font-size: 20px;
-        margin-bottom: 0px;
-      }
-
-      .btn-links > a > div {
-        border: 2px solid white;
-        padding: 8px 50px;
-        width: 200px;
-        border-radius: 50px;
-      }
-
-      .btn-links > a {
-        color: white;
-        font-family: Arial;
-        font-size: 18px;
-        text-align: center;
-        text-decoration: none;
-        font-weight: bold;
-      }
-    </style>
   </head>
   <body>
-    <div id="app">
+    <div class="container">
       <div class="me">
-        <a href="https://github.com/Jhuan-Nycolas" target="_blank" rel="noopener noreferrer">
-          <img src="./eu.jpeg" alt="Foto de um hacker estilo cartoon"/>
-        </a>
+        <img src="./assets/profilepic.jpeg">
+        <h1>Jhuan-Nycolas</h1>
       </div>
-      <h1 class="name">Jhuan Nycolas</h1>
-  
-      <div class="btn-links">
-        <h1>Repos:</h1>
-        <a href="https://github.com/Jhuan-Nycolas/NixDotfiles"><div>Dotfiles do NixOS</div></a>
-
-        <a href="https://github.com/Jhuan-Nycolas/Dev"><div>Meus arquivos de codação</div></a>
+      <div class="arch">
+        <img class="archlogo" src="./assets/archicon.svg" alt="Arch Linux Logo">
+        <p>I use Arch Btw</p>
       </div>
     </div>
   </body>
