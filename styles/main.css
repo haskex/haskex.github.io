@@ -2,7 +2,8 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 30px;
+  padding-top: 0px;
   background-color: #11111b;
   font-family: "JetBrains Mono";
   color: #cad3f5;
@@ -45,4 +46,10 @@ body {
 
 .archlogo {
   width: 140px;
+}
+
+main {
+  background-color: hsl(218 42% 18%);
+  margin-top: 60px;
+  height: 200px;
 }
