@@ -1,0 +1,21 @@
+.ProfilePic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-top: 100px;
+}
+
+.ProfilePic > img {
+  border-radius: 200px;
+  width: 160px;
+}
+
+.ProfilePic > h1 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.ProfilePic > h1 > .name {
+  color: var(--blue);
+}

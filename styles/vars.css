@@ -1,0 +1,9 @@
+:root {
+  --bg: var(--ctp-macchiato-base);
+  --text: var(--ctp-macchiato-text);
+  --bg-bar: var(--ctp-macchiato-crust);
+
+  --blue: var(--ctp-macchiato-blue);
+
+  --font: "JetBrains Mono";
+}

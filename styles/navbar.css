@@ -1,0 +1,15 @@
+nav {
+  background-color: var(--bg-bar);
+  border-radius: 40px;
+  margin: 20px;
+  padding: 14px;
+}
+
+nav > a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+nav > .in {
+  text-decoration: underline;
+}
